@@ -3,7 +3,6 @@
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { CinematicFooter } from './portfolio-cinematic-footer'
-import { NatureConservationFeature } from './nature-conservation-feature'
 import { ArrowDown, ArrowDownRight, ArrowUpRight, Code2, Globe2, Mail, Menu, Network, Orbit, Shield, X as CloseIcon } from 'lucide-react'
 
 const portrait = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FullSizeRender-4xwsPgC4BMeFpvMcxjLfiQY4NttHjP.jpeg'
@@ -79,7 +78,6 @@ export function LakerPortfolio() {
 
     <section className="contact-section" id="contact"><div className="section-wrap"><div className="section-index"><span>04</span> THE BEST THINGS START WITH A HELLO</div><div className="contact-heading"><div><p className="contact-kicker">Have an idea, question, or just love tech?</p><h2>Let&apos;s make<br /><span>something matter.</span></h2></div><a className="contact-orb" href="mailto:lakerleslie3@gmail.com" aria-label="Email Laker"><ArrowUpRight size={26} /></a></div><div className="contact-bottom"><a className="email-link" href="mailto:lakerleslie3@gmail.com"><Mail size={17} /> lakerleslie3@gmail.com <ArrowUpRight size={14} /></a><div className="social-grid">{social.map(({ label, value, href, icon: Icon }) => <a href={href} key={label} target="_blank" rel="noreferrer"><Icon size={16} /><span><small>{label}</small><strong>{value}</strong></span><ArrowUpRight className="social-arrow" size={14} /></a>)}</div></div></div></section>
 
-    <NatureConservationFeature />
     <CinematicFooter />
   </main>
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Dancing+Script:wght@700&display=swap');
 
 /* A quieter editorial palette and typography for the portfolio. The footer is intentionally excluded. */
 .portfolio {
@@ -57,4 +57,20 @@
 .portfolio > :not(.cinema-footer) button:focus-visible { outline-color: var(--portfolio-accent-soft); }
 @media (max-width: 640px) {
   .portfolio > :not(.cinema-footer) .wordmark { font-size: 13px; }
+}
+
+/* Give every peach accent text a bold, expressive cursive treatment. */
+.portfolio > :not(.cinema-footer) h1 span,
+.portfolio > :not(.cinema-footer) h2 span,
+.portfolio > :not(.cinema-footer) .wordmark-dot,
+.portfolio > :not(.cinema-footer) .section-index > span,
+.portfolio > :not(.cinema-footer) .interest-num,
+.portfolio > :not(.cinema-footer) .nav-links > a:hover,
+.portfolio > :not(.cinema-footer) .nav-links .nav-contact,
+.portfolio > :not(.cinema-footer) .text-action:hover,
+.portfolio > :not(.cinema-footer) .inline-link:hover,
+.portfolio > :not(.cinema-footer) .contact-orb {
+  font-family: 'Dancing Script', cursive;
+  font-style: italic;
+  font-weight: 700;
 }

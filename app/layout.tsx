@@ -3,10 +3,17 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'AERION Tech Observatory',
-  description: 'Private research observatory mapping technology access and use across Uganda.',
-  applicationName: 'AERION Tech Observatory',
-  robots: { index: false, follow: false },
+  title: 'Laker Leslie Jordan — Nastylex | AERION Developer & Founder',
+  description: 'Meet Laker Leslie Jordan, aka Nastylex — Ugandan software developer, technology enthusiast, and AERION founder exploring software, cybersecurity, Linux, AI, and aerospace.',
+  applicationName: 'Nastylex',
+  metadataBase: new URL('https://lakerleslie.codes'),
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: 'Laker Leslie Jordan — Nastylex',
+    description: 'Ugandan developer, technology enthusiast, and AERION founder.',
+    type: 'website',
+    url: 'https://lakerleslie.codes',
+  },
   icons: {
     icon: [
       { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },
@@ -19,7 +26,7 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   colorScheme: 'dark',
-  themeColor: '#111214',
+  themeColor: '#090b0f',
   userScalable: true,
 }
 

@@ -3,14 +3,14 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Laker Leslie Jordan — Nastylex | AERION Developer & Founder',
-  description: 'Meet Laker Leslie Jordan, aka Nastylex — Ugandan software developer, technology enthusiast, and AERION founder exploring software, cybersecurity, Linux, AI, and aerospace.',
+  title: 'Laker Leslie Jordan — Nastylex | Developer & Technology Enthusiast',
+  description: 'Meet Laker Leslie Jordan, aka Nastylex — Ugandan developer and technology enthusiast exploring software, cybersecurity, Linux, AI, and aerospace.',
   applicationName: 'Nastylex',
   metadataBase: new URL('https://lakerleslie.codes'),
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Laker Leslie Jordan — Nastylex',
-    description: 'Ugandan developer, technology enthusiast, and AERION founder.',
+    description: 'Ugandan developer and technology enthusiast.',
     type: 'website',
     url: 'https://lakerleslie.codes',
   },

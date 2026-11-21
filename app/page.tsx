@@ -1,10 +1,5 @@
-import { redirect } from 'next/navigation'
-import { AerionApp } from '@/components/aerion-app'
-import { createClient } from '@/lib/supabase/server'
+import { LakerPortfolio } from '@/components/laker-portfolio'
 
-export default async function Page() {
-  const supabase = await createClient()
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) redirect('/login')
-  return <AerionApp userEmail={user.email ?? 'Researcher'} />
+export default function Page() {
+  return <LakerPortfolio />
 }

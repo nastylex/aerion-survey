@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
+import './portfolio-redesign.css'
 
 export const metadata: Metadata = {
   title: 'Laker Leslie Jordan — Nastylex | AERION Developer & Founder',

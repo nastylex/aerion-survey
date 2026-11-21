@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+/* A quieter editorial palette and typography for the portfolio. The footer is intentionally excluded. */
+.portfolio {
+  --portfolio-accent: #c99a9b;
+  --portfolio-accent-soft: #e2c4bd;
+  --portfolio-ink: #f3eee8;
+  --portfolio-muted: #b6aaa3;
+  font-family: 'DM Sans', Arial, sans-serif;
+  background: radial-gradient(ellipse at 78% 12%, #40343a55 0, transparent 34%), #111013;
+}
+.portfolio > :not(.cinema-footer) { font-family: 'DM Sans', Arial, sans-serif; }
+.portfolio > :not(.cinema-footer) h1,
+.portfolio > :not(.cinema-footer) h2,
+.portfolio > :not(.cinema-footer) h3,
+.portfolio > :not(.cinema-footer) .wordmark,
+.portfolio > :not(.cinema-footer) .portrait-caption strong {
+  font-family: 'Playfair Display', 'Palatino Linotype', Georgia, serif;
+}
+.portfolio > :not(.cinema-footer) h1,
+.portfolio > :not(.cinema-footer) h2 { letter-spacing: -.035em; }
+.portfolio > :not(.cinema-footer) h1 span,
+.portfolio > :not(.cinema-footer) h2 span,
+.portfolio > :not(.cinema-footer) .wordmark-dot { color: var(--portfolio-accent-soft); }
+.portfolio > :not(.cinema-footer) .site-header { background: #111013df; border-bottom-color: #e9d8d01c; }
+.portfolio > :not(.cinema-footer) .wordmark { font-size: 15px; letter-spacing: .12em; }
+.portfolio > :not(.cinema-footer) .wordmark-dot { font-family: 'DM Sans', Arial, sans-serif; }
+.portfolio > :not(.cinema-footer) .nav-links > a:hover,
+.portfolio > :not(.cinema-footer) .nav-links .nav-contact,
+.portfolio > :not(.cinema-footer) .text-action:hover,
+.portfolio > :not(.cinema-footer) .inline-link:hover { color: var(--portfolio-accent-soft); }
+.portfolio > :not(.cinema-footer) .nav-links .nav-contact:hover,
+.portfolio > :not(.cinema-footer) .button-glass:hover { border-color: #c99a9b88; }
+.portfolio > :not(.cinema-footer) .status-pulse,
+.portfolio > :not(.cinema-footer) .portrait-caption i { background: var(--portfolio-accent); box-shadow: 0 0 10px #c99a9b66; }
+.portfolio > :not(.cinema-footer) .hero h1,
+.portfolio > :not(.cinema-footer) .intro-grid h2,
+.portfolio > :not(.cinema-footer) .interests-heading h2,
+.portfolio > :not(.cinema-footer) .contact-heading h2 { color: var(--portfolio-ink); }
+.portfolio > :not(.cinema-footer) .hero h1 span,
+.portfolio > :not(.cinema-footer) .intro-grid h2 span,
+.portfolio > :not(.cinema-footer) .interests-heading h2 span,
+.portfolio > :not(.cinema-footer) .contact-heading h2 span { color: var(--portfolio-accent-soft); }
+.portfolio > :not(.cinema-footer) .button-bright { border-color: var(--portfolio-accent); background: var(--portfolio-accent); color: #171214; box-shadow: 0 6px 24px #c99a9b20; }
+.portfolio > :not(.cinema-footer) .button-bright:hover { border-color: #dfb5b1; background: #dfb5b1; }
+.portfolio > :not(.cinema-footer) .button-glass:hover { box-shadow: inset 0 1px 0 #ffffff26, 0 10px 32px #00000040, 0 0 24px #c99a9b14; }
+.portfolio > :not(.cinema-footer) .section-index > span { color: var(--portfolio-accent-soft); }
+.portfolio > :not(.cinema-footer) .interests-section { background: radial-gradient(ellipse at 15% 100%, #c99a9b0a, transparent 44%), #ffffff02; }
+.portfolio > :not(.cinema-footer) .interest-card { background: linear-gradient(145deg, #ffffff0d, #ffffff03 58%, #c99a9b08); }
+.portfolio > :not(.cinema-footer) .interest-icon,
+.portfolio > :not(.cinema-footer) .interest-num { color: var(--portfolio-accent-soft); }
+.portfolio > :not(.cinema-footer) .contact-section { background: radial-gradient(ellipse at 18% 90%, #c99a9b0a, transparent 50%); }
+.portfolio > :not(.cinema-footer) .contact-orb { border-color: #c99a9b55; background: #c99a9b12; color: var(--portfolio-accent-soft); }
+.portfolio > :not(.cinema-footer) .contact-orb:hover { background: #c99a9b25; }
+.portfolio > :not(.cinema-footer) .social-grid a:hover { border-color: #c99a9b55; }
+.portfolio > :not(.cinema-footer) a:focus-visible,
+.portfolio > :not(.cinema-footer) button:focus-visible { outline-color: var(--portfolio-accent-soft); }
+@media (max-width: 640px) {
+  .portfolio > :not(.cinema-footer) .wordmark { font-size: 13px; }
+}

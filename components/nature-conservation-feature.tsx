@@ -10,7 +10,7 @@ const commitments = [
 export function NatureConservationFeature() {
   return <section className="nature-feature" id="nature" aria-labelledby="nature-title">
     <div className="nature-feature-inner">
-      <div className="section-index nature-index"><span>06</span> NATURE & CONSERVATION</div>
+      <div className="section-index nature-index"><span>05</span> NATURE & CONSERVATION</div>
       <div className="nature-feature-heading">
         <p className="nature-kicker"><Leaf size={14} strokeWidth={1.6} /> A PERSONAL COMMITMENT TO THE LIVING WORLD</p>
         <h2 id="nature-title">If you love nature,<br /><span>you&apos;ll love this.</span></h2>

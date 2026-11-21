@@ -70,7 +70,7 @@ export function CinematicFooter() {
         <span className="cinema-copyright">© {new Date().getFullYear()} Laker Leslie Jordan. Built with curiosity.</span>
       </div>
       <nav className="cinema-links" aria-label="Footer navigation">
-        <div><h2>Explore</h2><a href="#about">The person</a><a href="#interests">What I explore</a><a href="#aerion">AERION</a><a href="#gallery">Life off-screen</a></div>
+        <div><h2>Explore</h2><a href="#about">The person</a><a href="#interests">What I explore</a><a href="#gallery">Life off-screen</a></div>
         <div><h2>Connect</h2><a href="mailto:lakerleslie3@gmail.com">Email <ArrowUpRight size={13} /></a><a href="https://github.com/nastylex" target="_blank" rel="noreferrer">GitHub <ArrowUpRight size={13} /></a><a href="https://linkedin.com/in/laker-leslie-jordan" target="_blank" rel="noreferrer">LinkedIn <ArrowUpRight size={13} /></a></div>
       </nav>
       <div className="cinema-brand-row">
